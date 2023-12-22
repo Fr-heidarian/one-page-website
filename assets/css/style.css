@@ -16,6 +16,10 @@
   --bc1: #5f5f5f;
   --bc2: #c7c7c7;
 }
+.container {
+  width: 50%;
+  margin: auto;
+}
 
 /* Hero Section Start */
 .hero {
@@ -93,8 +97,41 @@
   margin-top: 0.75rem;
   height: 0.11rem;
 }
-.container {
-  width: 50%;
-  margin: auto;
+
+/* 3-columns after hero section */
+
+.advantage-card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 0;
 }
-/* Hero Section End */
+.advantage-card {
+  width: 30%;
+  display: flex;
+}
+.advantage-card i {
+  font-size: 2rem;
+  padding-right: 0.75em;
+}
+.advantage-card p {
+  padding: 1rem 0;
+  line-height: 1.5rem;
+  font-size: 0.95rem;
+  color: var(--background-footer);
+}
+.read-more {
+  font-size: 0.85rem;
+  text-decoration: none;
+  letter-spacing: 0.15rem;
+  color: var(--text-secondary);
+}
+.read-more::after {
+  content: "";
+  display: block;
+  background: var(--text-primary);
+  width: 17%;
+  margin-top: 0.75rem;
+  height: 1.5px;
+}

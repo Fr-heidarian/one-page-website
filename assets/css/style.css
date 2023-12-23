@@ -31,7 +31,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 500px;
+  height: 85vh;
 }
 .hero header {
   position: absolute;
@@ -134,4 +134,150 @@
   width: 17%;
   margin-top: 0.75rem;
   height: 1.5px;
+}
+/* About Us */
+.bg-scondary {
+  background-color: var(--background-secondary);
+}
+.About-Us {
+  text-align: center;
+  padding: 2rem 0;
+}
+.title-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.2rem;
+  font-size: 1.25rem;
+}
+.title-section::before {
+  content: "";
+  display: inline-block;
+  background: var(--text-primary);
+  width: 1.5rem;
+  height: 1.5px;
+  margin-right: 1rem;
+  line-height: 1.5px;
+}
+.title-section::after {
+  content: "";
+  display: inline-block;
+  background: var(--text-primary);
+  width: 1.5rem;
+  height: 1.5px;
+  margin-left: 1rem;
+}
+.About-Us-Header p {
+  line-height: 2rem;
+  font-size: 1rem;
+  color: var(--background-footer);
+  width: 50%;
+  margin: auto;
+  padding: 2rem 0;
+}
+.About-Us-Header h1 {
+  margin-top: 1rem;
+  font-size: 3.5rem;
+}
+.About-Us-card-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.About-Us-card-list div:nth-child(1) {
+  color: var(--white);
+  height: 380px;
+  width: 32%;
+  padding: 2rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../images/3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.About-Us-card-list div:nth-child(2) {
+  color: var(--white);
+  height: 380px;
+  width: 32%;
+  padding: 2rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../images/4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.About-Us-card-list div:nth-child(3) {
+  color: var(--white);
+  height: 380px;
+  width: 32%;
+  padding: 2rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../images/5.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.About-Us-card-list .About-Us-card i {
+  font-size: 1.5rem;
+}
+.About-Us-card-list .About-Us-card h5 {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+.About-Us-card-list .About-Us-card p {
+  font-size: 1rem;
+}
+.part2 {
+  display: flex;
+  height: 350px;
+  color: var(--white);
+}
+.part2-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  padding: 0 7rem;
+  text-align: right;
+  background-color: var(--black);
+  position: relative;
+}
+.part2-left p {
+  font-size: 1rem;
+  margin: 15px auto;
+}
+
+.part2-left a {
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 10px;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 1rem;
+  text-align: center;
+  width: 18%;
+  position: absolute;
+  bottom: 60px;
+  right: 110px;
+}
+.part2-right {
+  width: 50%;
+  background-image: url(../images/6.jpg);
+  background-position: center;
+  background-size: cover;
 }

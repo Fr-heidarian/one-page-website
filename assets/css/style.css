@@ -144,6 +144,7 @@
   padding: 2rem 0;
 }
 .title-section {
+  margin: 1.5rem 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -280,4 +281,125 @@
   background-image: url(../images/6.jpg);
   background-position: center;
   background-size: cover;
+}
+/* Best Deals */
+.Best-Deals {
+  width: 60%;
+  margin: 20px auto;
+  text-align: center;
+}
+.Best-Deals h1 {
+  margin: 3.5rem 0;
+  font-size: 3.5rem;
+}
+p.price-box {
+  display: flex;
+}
+.Best-Deals .nav-left {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px auto;
+}
+.Best-Deals .nav-left a {
+  text-decoration: none;
+  color: var(--bc1);
+  font-size: 1rem;
+}
+.Best-Deals .nav-left a.active {
+  text-decoration: none;
+  color: var(--black);
+  font-weight: bold;
+  font-size: 1rem;
+}
+.Best-Deals .nav-left span {
+  padding: 0 0.75rem;
+}
+.gallery {
+  display: flex;
+  flex-direction: column;
+}
+.gallery .row1,
+.gallery .row2 {
+  display: flex;
+  margin-bottom: 8rem;
+  gap: 1rem;
+}
+.line::after {
+  content: "";
+  display: block;
+  background: var(--background-secondary);
+  width: 40%;
+  margin: auto;
+  margin-top: 0.5rem;
+  height: 0.5px;
+}
+.gallery .row1 div:nth-child(1) {
+  background-image: url(../images/6.jpg);
+  background-position: center;
+  background-size: cover;
+  flex: 1;
+  height: 160px;
+}
+.gallery .row1 div:nth-child(2) {
+  background-image: url(../images/8.jpg);
+  background-position: center;
+  background-size: cover;
+  flex: 1;
+  height: 160px;
+}
+.gallery .row1 div:nth-child(3) {
+  background-image: url(../images/5.jpg);
+  background-position: center;
+  background-size: cover;
+  flex: 1;
+  height: 160px;
+}
+.gallery .row1 div:nth-child(4) {
+  background-image: url(../images/2.jpg);
+  background-position: center;
+  background-size: cover;
+  flex: 1;
+  height: 160px;
+}
+.gallery .row1 p,
+.gallery .row2 p {
+  font-size: 1.25rem;
+  margin: 0.75rem 0;
+}
+.gallery .row1 span,
+.gallery .row2 span {
+  font-size: 1.25rem;
+}
+
+.old-price {
+  color: var(--background-footer);
+  font-size: 0.75rem !important;
+}
+.gallery .row2 div:nth-child(1) {
+  background-image: url(../images/8.jpg);
+  background-position: center;
+  background-size: cover;
+  flex: 1;
+  height: 160px;
+}
+.gallery .row2 div:nth-child(2) {
+  background-image: url(../images/7.jpg);
+  background-position: center;
+  background-size: cover;
+  flex: 1;
+  height: 160px;
+}
+.gallery .row2 div:nth-child(3) {
+  background-image: url(../images/2.jpg);
+  background-position: center;
+  background-size: cover;
+  flex: 1;
+  height: 160px;
+}
+.gallery .row2 div:nth-child(4) {
+  background-image: url(../images/2.jpg);
+  background-position: center;
+  background-size: cover;
+  flex: 1;
+  height: 160px;
 }

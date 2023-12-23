@@ -402,4 +402,35 @@ p.price-box {
   background-size: cover;
   flex: 1;
   height: 160px;
+} /* 3-picture */
+.picture-3 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.picture-3 div:nth-child(1) {
+  flex: 1;
+  padding: 2rem;
+  background-image: url("../images/11.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 340px;
+}
+.picture-3 div:nth-child(2) {
+  flex: 1;
+  padding: 2rem;
+  background-image: url("../images/4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 340px;
+}
+.picture-3 div:nth-child(3) {
+  flex: 1;
+  padding: 2rem;
+  background-image: url("../images/10.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 340px;
 }

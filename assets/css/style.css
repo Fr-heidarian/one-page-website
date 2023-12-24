@@ -434,3 +434,60 @@ p.price-box {
   background-size: cover;
   height: 340px;
 }
+/* Testimonial */
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+}
+.sec-title h1 {
+  margin: 2rem 0;
+  font-size: 3.5rem;
+}
+.testimonial-content {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.6)
+    ),
+    url(../images/2.jpg);
+  background-position: center;
+  background-size: cover;
+  /* opacity: 0.5; */
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.testimonial-content > p {
+  width: 85%;
+  text-align: center;
+  font-size: 2rem;
+}
+.client-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.client-info p:first-child {
+  font-size: 1rem;
+}
+.client-info p:last-child {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+.client-pic {
+  background-image: url(../images/testi.jpg);
+  background-position: center center;
+  background-size: cover;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+}
+.client-details {
+  margin-left: 1rem;
+}

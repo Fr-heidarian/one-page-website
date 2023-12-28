@@ -491,3 +491,24 @@ p.price-box {
 .client-details {
   margin-left: 1rem;
 }
+/* video */
+.video {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../images/video.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 35rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+}
+.video h1 {
+  margin-bottom: 1rem;
+  font-size: 3rem;
+}
+.video i {
+  font-size: 2.5rem;
+}

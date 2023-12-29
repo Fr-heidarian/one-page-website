@@ -573,7 +573,7 @@ textarea + i {
   font-size: 1rem;
   border: none;
   border-radius: 0.25rem;
-  margin-top: 1rem;  
+  margin-top: 1rem;
 }
 .visit-us-right {
   flex: 1;
@@ -587,4 +587,167 @@ textarea + i {
   font-weight: bold;
   color: var(--background-footer-follow-us) !important;
   margin: 1.5rem 0;
+}
+/* Footer location */
+.location {
+  width: 100%;
+}
+/* footer gallery */
+.footer-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+  background-color: var(--background-footer);
+}
+.follow-us {
+  background-color: var(--background-footer-follow-us);
+  padding: 5px;
+  padding: 3px 23px;
+  margin-bottom: 30px;
+  border-radius: 1px;
+}
+.follow-us a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.75rem;
+}
+.follow-us i {
+  color: #fff;
+  font-size: 0.75rem;
+}
+.footer-gallery {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 10%;
+}
+.footer-gallery .row1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  height: 80px;
+}
+.footer-gallery .row1 div:nth-child(1) {
+  flex-basis: 11%;
+  height: 80px;
+  background-image: url(../images/1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.footer-gallery .row1 div:nth-child(2) {
+  flex-basis: 11%;
+  height: 80px;
+  background-image: url(../images/2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.footer-gallery .row1 div:nth-child(3) {
+  flex-basis: 11%;
+  height: 80px;
+  background-image: url(../images/3.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.footer-gallery .row1 div:nth-child(4) {
+  flex-basis: 11%;
+  height: 80px;
+  background-image: url(../images/4.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.footer-gallery .row1 div:nth-child(5) {
+  flex-basis: 11%;
+  height: 80px;
+  background-image: url(../images/5.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.footer-gallery .row1 div:nth-child(6) {
+  flex-basis: 11%;
+  height: 80px;
+  background-image: url(../images/6.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.footer-gallery .row1 div:nth-child(7) {
+  flex-basis: 11%;
+  height: 80px;
+  background-image: url(../images/7.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.footer-gallery .row1 div:nth-child(8) {
+  flex-basis: 11%;
+  height: 80px;
+  background-image: url(../images/8.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.footer-gallery .row2 {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-gallery .row2 div:nth-child(1) {
+  flex-basis: 11%;
+  height: 80px;
+  background-image: url(../images/9.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.footer-gallery .row2 div:nth-child(2) {
+  flex-basis: 11%;
+  height: 80px;
+  background-image: url(../images/10.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.footer-gallery .row2 div:nth-child(3) {
+  flex-basis: 11%;
+  height: 80px;
+  background-image: url(../images/11.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.footer-gallery .row2 div:nth-child(4) {
+  flex-basis: 11%;
+  height: 80px;
+  background-image: url(../images/5.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.footer-gallery .row2 div:nth-child(5) {
+  flex-basis: 11%;
+  height: 80px;
+  background-image: url(../images/6.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.footer-gallery .row2 div:nth-child(6) {
+  flex-basis: 11%;
+  height: 80px;
+  background-image: url(../images/8.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.footer-gallery .row2 div:nth-child(7) {
+  flex-basis: 11%;
+  height: 80px;
+  background-image: url(../images/6.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.footer-gallery .row2 div:nth-child(8) {
+  flex-basis: 11%;
+  height: 80px;
+  background-image: url(../images/7.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.footer-rule {
+  color: var(--white);
+  font-size: 0.75rem;
 }
